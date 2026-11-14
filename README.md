@@ -172,3 +172,35 @@ is installed.
 The first release focuses on dependable private chat, multimodal input, local
 memory, skills, backups, and robust on-device inference. Model weights are
 downloaded separately and remain subject to their upstream terms.
+
+## License
+
+Copyright (C) 2026 Ali / Li Labs (`LiLabsAI`). All rights reserved under the
+terms below.
+
+Offmind is free software: you can redistribute it and/or modify it under the
+terms of the **GNU General Public License v3.0 (`GPL-3.0`)** as published by
+the Free Software Foundation. See [LICENSE](LICENSE) for the full license
+text.
+
+Under `GPL-3.0`:
+
+- **Study, fork, and contribute:** Anyone can inspect the source code, modify
+  it, create forks, and contribute improvements back to the community.
+- **Copyleft protection:** Distributed copies and derivative works incorporating
+  Offmind source code must also be licensed under `GPL-3.0` with corresponding
+  source code made available, preventing closed-source redistribution of
+  distributed derivatives.
+- **Attribution:** Original copyright and license notices must be preserved.
+- **No warranty:** Offmind is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### Third-party software and models
+
+- Vendored and bundled third-party open-source dependencies retain their
+  respective upstream licenses (including `llama.cpp` under MIT, Khronos
+  `vulkan-headers` under Apache-2.0, `sherpa-onnx` under Apache-2.0, and
+  `sqlcipher-android`).
+- Model weights are downloaded separately and remain subject to their upstream
+  provider terms.
